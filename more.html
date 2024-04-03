@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title> Miles per hour to Kilometers per hour!</title>
+  <title> Kilometers per hour to Meters per hour!</title>
   <!-- styles sheet for MDL -->
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/more.css">
   <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon (3)/favicon-16x16.png">
   <link rel="manifest" href="./favicon/site.webmanifest">
-  <meta charset="UTF-8">
-  <meta name="description" content="Assignment 2"">
-      <meta name=" keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="Dieg Valdivieso">
-</head>
-
+    <meta charset="UTF-8">
+    <meta name="description" content="Assignment 2"">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Dieg Valdivieso">
 <body>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
@@ -24,43 +21,47 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Miles per hour to Kilometers per hour!</span>
+        <span class="mdl-layout-title"> Kilometers per hour to Meters per hour!</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <table>
         <tr>
+
           <th>
-            <h2>Formula</h2>
-            <h3> Mph x 1.60 </h3>
-            <h3></h3>
-          </th>
+            <h3>Formula</h3>
+            <h4> Kph x 1000 </h4>
+
+         </th>
         </tr>
       </table>
       <!-- Simple Textfield -->
       <form action="#">
-        <p>Mph </p>
+        <p>Kph </p>
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" pattern="[1-9][0-9]*(\.[0-9]+)?" id="Mph" />
-          <div id="Kph"> Kph = ?</div>
+          <input class="mdl-textfield__input" type="text" pattern="[1-9][0-9]*(\.[0-9]+)?" id="Kph" />
+          <script src="./js/script.js"></script>
+          <div id="metersperhour"> Metersperhour = ?</div>
           <br>
-          <span class="mdl-textfield__error">Input is not valid!</span>
+
+          <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
       </form>
 
 
       <!-- Raised button with ripple -->
       <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-        onclick="doMathClicked()">
+        onclick="kphToMetersPH()">
         Calculate
       </button>
       <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css" />
+
+      <br /> Here is a <a href="index.html"> awsome link</a> to my First web page, Mph to Kph</a>.
+
       <br />
       <p>
       <div id="Kph"></div>
-      Here is a <a href="more.html"> awesome link</a> to my Second page, Kilometers per hour to Meters per hour</a>.
       </p>
-      <center><img src="./images/Speedomitor.jpg" alt="Formula 1 track" width="500" height="330"></center>
     </main>
   </div>
 </body>

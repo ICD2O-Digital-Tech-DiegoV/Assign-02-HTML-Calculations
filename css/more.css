@@ -1,8 +1,8 @@
 body {
-  background-color: #0033ff;
+  background-color: #fafafa;
   font-size: 10pt;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  color: #58f901;
+  color: #000000;
   line-height: 14pt;
   padding-left: 5pt;
   padding-right: 5pt;
@@ -13,7 +13,7 @@ h1 {
   font: 18pt Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 20pt;
-  color: #24fd08;
+  color: #030303;
 }
 
 h2 {
@@ -37,7 +37,7 @@ p.subheader {
 
 div {
   font-weight: bold;
-  color: #ffffff;
+  color: #0d0d0d;
   margin: 5px;
 }
 
